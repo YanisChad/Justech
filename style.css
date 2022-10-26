@@ -50,13 +50,6 @@ body {
     float: right;
 }
 
-#ending {
-    height: 300px;
-    margin-top: 40%;
-    background-color: #252a2c;
-    clear: both;
-}
-
 /*Search bar*/
 #wrap {
     display: block;
@@ -75,7 +68,7 @@ body {
     font-weight: 100;
     border: none;
     outline: none;
-    color: #555;
+    color: rgb(0, 0, 0);
     padding: 3px;
     padding-right: 60px;
     width: 0px;
@@ -107,11 +100,10 @@ body {
     top: 0;
     right: 0;
     z-index: 2;
-    opacity: 0.4;
-    transition: opacity .4s ease;
+    opacity: 1;
   }
   
   input[type="submit"]:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 /*End of search bar*/
