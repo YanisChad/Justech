@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'StopMotion';
-  src: url('fonts/Stopmotion/StopmotionDecember11.ttf') format('truetype')
+  src: url('../fonts/Stopmotion/StopmotionDecember11.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'inter';
-  src: url('fonts/static/Inter-Light.ttf') format('truetype')
+  src: url('../fonts/static/Inter-Light.ttf') format('truetype')
 }
 
 html {
@@ -80,7 +80,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;	
-  background: url(sources/snow.png);
+  background: url(../sources/snow.png);
   animation: fall 10s linear infinite alternate;
 }
 
