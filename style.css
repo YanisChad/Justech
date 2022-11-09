@@ -26,7 +26,7 @@ body {
   top: 5%;
 }
 
-#branding {
+#header {
   background-color: #D3D3D3;
   opacity: 73%;
   color: #E0E0E0;
@@ -36,7 +36,7 @@ body {
   width: 100%;
 }
 
-#branding a {
+#header a {
   padding-left: 25%;
   float: left;
   margin-left: 0%;
@@ -53,25 +53,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 14px;
-}
-
-
-#bureautique {
-  border: 3px solid #2a2a2d;
-  width: 500px;
-  height: 400px;
-  margin-left: 150px;
-  margin-top: 200px;
-  float: left;
-}
-
-#gaming {
-  border: 3px solid #2a2a2d;
-  width: 500px;
-  height: 400px;
-  margin-right: 150px;
-  margin-top: 200px;
-  float: right;
 }
 
 #snow {
@@ -113,3 +94,31 @@ body {
   visibility: hidden;
 }
 
+/*midle div that take all the page exept the header*/
+#middle {
+  top: 13%;
+  height: 87%;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.guirlande_left {
+  position: absolute;
+  transform: scale(0.5, 0.5) translate(-50%, -50%);
+}
+
+.guirlande_middle {
+  position: static;
+  transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+.guirlande_right {
+  position: static;
+  transform: scale(0.5, 0.5) translateY(-100%) rotate(90deg);
+  float: right;
+}
