@@ -1,53 +1,49 @@
 @font-face {
-    font-family: 'StopMotion';
-    src: url('fonts/Stopmotion/StopmotionDecember11.ttf') format('truetype')
+  font-family: 'StopMotion';
+  src: url('fonts/Stopmotion/StopmotionDecember11.ttf') format('truetype')
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
-
 body {
-    background: repeating-linear-gradient(to bottom, #F15481 0%, #A76BEF 100%);
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    
+  background: repeating-linear-gradient(to bottom, #F15481 0%, #A76BEF 100%);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .top {
-    font-family: 'StopMotion';
-    font-size: 35px;
-    color: #000000;
-    text-decoration: none;
+  font-family: 'StopMotion';
+  color: #000000;
 }
 
 #branding {
-    background-color: #D3D3D3;
-    opacity: 73%;
-    color: #E0E0E0;
-    padding: 10px;
-    height: 70px;
+  background-color: #D3D3D3;
+  opacity: 73%;
+  color: #E0E0E0;
+  padding: 10px;
 }
 
 #bureautique {
-    border: 3px solid #2a2a2d;
-    width: 750px;
-    height: 500px;
-    margin-left: 150px;
-    margin-top: 150px;
-    float: left;
+  border: 3px solid #2a2a2d;
+  width: 450px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 75px;
+  float: left;
 }
 
 #gaming {
-    border: 3px solid #2a2a2d;
-    width: 750px;
-    height: 500px;
-    margin-right: 150px;
-    margin-top: 150px;
-    float: right;
+  border: 3px solid #2a2a2d;
+  width: 450px;
+  height: 350px;
+  margin-right: 150px;
+  margin-top: 75px;
+  float: right;
 }
 
 /*Search bar*/
