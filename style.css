@@ -18,32 +18,63 @@ body {
 
 .top {
   font-family: 'StopMotion';
-  color: #000000;
+  color: black;
+  text-decoration: none;
+  float: left;
+  position: relative;
+}
+
+.subtitle {
+  text-align: center;
+  text-overflow: ellipsis;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  
 }
 
 #branding {
   background-color: #D3D3D3;
   opacity: 73%;
   color: #E0E0E0;
-  padding: 10px;
+  height: 13%;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
 }
 
 #bureautique {
   border: 3px solid #2a2a2d;
-  width: 450px;
-  height: 350px;
+  width: 500px;
+  height: 400px;
   margin-left: 150px;
-  margin-top: 75px;
+  margin-top: 200px;
   float: left;
 }
 
 #gaming {
   border: 3px solid #2a2a2d;
-  width: 450px;
-  height: 350px;
+  width: 500px;
+  height: 400px;
   margin-right: 150px;
-  margin-top: 75px;
+  margin-top: 200px;
   float: right;
+}
+
+#snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;	
+  background: url(sources/snow.png);
+  animation: fall 10s linear infinite alternate;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-1000px);
+  }
 }
 
 /*Search bar*/
