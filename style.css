@@ -109,6 +109,10 @@ body {
   transform: scale(0.45, 0.45) translate(-61%, -61%);
 
   z-index: 2;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #guirlande_middle {
@@ -116,6 +120,10 @@ body {
   transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
   left: calc(50% - 244px);
   display: block;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   
 }
 
@@ -124,6 +132,10 @@ body {
   transform: scale(0.5, 0.5) translate(-50%, -50%) scaleX(-1);
   image-orientation: initial;
   left: calc(100% - 200px);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #headset {
