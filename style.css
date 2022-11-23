@@ -95,13 +95,13 @@ body {
   visibility: hidden;
 }
 
-/*midle div that take all the page exept the header*/
 #middle {
   top: 10%;
   height: 87%;
   z-index: 1;
   position: absolute;
   width: 100%;
+  outline: none;
 }
 
 #guirlande_left {
