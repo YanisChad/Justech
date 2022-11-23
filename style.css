@@ -32,7 +32,7 @@ body {
   opacity: 73%;
   color: #E0E0E0;
   height: 10%;
-  z-index: 1;
+  z-index: 3;
   position: absolute;
   width: 100%;
 }
@@ -106,8 +106,7 @@ body {
 
 #guirlande_left {
   position: absolute;
-  transform: scale(0.45, 0.45) translate(-61%, -61%);
-
+  transform: scale(0.40, 0.40) translate(-78%, -78%);
   z-index: 2;
 }
 
@@ -116,20 +115,45 @@ body {
   transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
   left: calc(50% - 244px);
   display: block;
-  
+  z-index: 2;
 }
 
 #guirlande_right {
-  position: absolute;
-  transform: scale(0.5, 0.5) translate(-50%, -50%) scaleX(-1);
+  position: absolute; 
+  transform: scale(0.4, 0.4) translate(-50%, -75%) scaleX(-1);
   image-orientation: initial;
   left: calc(100% - 200px);
+  z-index: 2;
 }
 
 #headset {
   position: absolute;
-  transform: scale(0.41, 0.41) rotate(24deg);
-  left: calc(-50% + 67px);
-  top: calc(-25% - 100px);
+  transform: scale(0.35, 0.4) rotate(24deg);
+  left: -45%;
+  top: -47%;
+  z-index: 1;
+}
+
+#micro {
+  position: absolute;
+  transform: scale(0.32, 0.32) rotate(-30deg);
+  left: calc(66%);
+  top: calc(-77%);
+  z-index: 1;
+}
+
+#keyboard {
+  position: absolute;
+  transform: scale(0.32, 0.32) rotate(27deg);
+  left: -41%;
+  top: 26%;
+  z-index: 1;
+}
+
+#mouse {
+  position: absolute;
+  transform: scale(0.45, 0.45) rotate(-41deg);
+  left: 76%;
+  top: 60%;
   z-index: 1;
 }
