@@ -10,6 +10,7 @@
 
 html {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -23,14 +24,14 @@ body {
 .top {
   position: absolute;
   padding-top: 5px;
-  top: 5%;
+  top: -7%;
 }
 
 #header {
   background-color: #D3D3D3;
   opacity: 73%;
   color: #E0E0E0;
-  height: 13%;
+  height: 10%;
   z-index: 1;
   position: absolute;
   width: 100%;
@@ -96,29 +97,39 @@ body {
 
 /*midle div that take all the page exept the header*/
 #middle {
-  top: 13%;
+  top: 10%;
   height: 87%;
   z-index: 1;
   position: absolute;
   width: 100%;
 }
 
-.guirlande_left {
+#guirlande_left {
   position: absolute;
-  transform: scale(0.5, 0.5) translate(-50%, -50%);
+  transform: scale(0.45, 0.45) translate(-61%, -61%);
+
+  z-index: 2;
 }
 
-.guirlande_middle {
-  position: static;
+#guirlande_middle {
+  position: absolute;
   transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
-  margin-left: auto;
-  margin-right: auto;
+  left: calc(50% - 244px);
   display: block;
   
 }
 
-.guirlande_right {
-  position: static;
-  transform: scale(0.5, 0.5) translateY(-100%) rotate(90deg);
-  float: right;
+#guirlande_right {
+  position: absolute;
+  transform: scale(0.5, 0.5) translate(-50%, -50%) scaleX(-1);
+  image-orientation: initial;
+  left: calc(100% - 200px);
+}
+
+#headset {
+  position: absolute;
+  transform: scale(0.41, 0.41) rotate(24deg);
+  left: calc(-50% + 67px);
+  top: calc(-25% - 100px);
+  z-index: 1;
 }
