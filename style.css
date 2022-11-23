@@ -50,8 +50,8 @@ body {
 #links {
   font-family: 'inter';
   position: relative;
-  top: -15%;
-  left: 80%;
+  top: -5%;
+  left: 84%;
   width: 100%;
   transform: translate(-50%, -50%);
   font-size: 14px;
@@ -95,54 +95,54 @@ body {
 
 #guirlande_left {
   position: absolute;
-  transform: scale(0.40, 0.40) translate(-78%, -78%);
+  transform: scale(0.40, 0.40) translate(-78%, -77%);
   z-index: 2;
 }
 
 #guirlande_middle {
   position: absolute;
   transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
-  left: 35%;
+  left: 40%;
   display: block;
   z-index: 2;
 }
 
 #guirlande_right {
   position: absolute; 
-  transform: scale(0.4, 0.4) translate(-50%, -75%) scaleX(-1);
+  transform: scale(0.45, 0.45) translate(-50%, -63%) scaleX(-1);
   image-orientation: initial;
-  left: 87%;
+  left: 89%;
   z-index: 2;
 }
 
 #headset {
   position: absolute;
   transform: scale(0.35, 0.4) rotate(24deg);
-  left: -45%;
-  top: -47%;
+  left: -37%;
+  top: -35%;
   z-index: 1;
 }
 
 #micro {
   position: absolute;
   transform: scale(0.32, 0.32) rotate(-30deg);
-  left: calc(66%);
-  top: calc(-77%);
+  left: 72%;
+  top: -59%;
   z-index: 1;
 }
 
 #keyboard {
   position: absolute;
-  transform: scale(0.32, 0.32) rotate(27deg);
-  left: -41%;
-  top: 26%;
+  transform: scale(0.32, 0.32) rotate(24deg);
+  left: -33%;
+  top: 41%;
   z-index: 1;
 }
 
 #mouse {
   position: absolute;
   transform: scale(0.45, 0.45) rotate(-41deg);
-  left: 76%;
-  top: 60%;
+  left: 80%;
+  top: 68%;
   z-index: 1;
 }
