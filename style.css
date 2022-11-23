@@ -23,7 +23,6 @@ body {
 
 .top {
   position: absolute;
-  padding-top: 5px;
   top: -7%;
 }
 
@@ -38,44 +37,34 @@ body {
 }
 
 #header a {
-  padding-left: 25%;
+  padding-left: 0%;
   float: left;
-  margin-left: 0%;
+  margin-left: 2%;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  left: -1%;
+  top: 10%;
   text-decoration: none;
 }
 
 #links {
   font-family: 'inter';
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  top: -15%;
+  left: 80%;
+  width: 100%;
   transform: translate(-50%, -50%);
   font-size: 14px;
 }
 
-#snow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;	
-  background: url(sources/snow.png);
-  animation: fall 10s linear infinite alternate;
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(-1000px);
-  }
+.a {
+  margin-left: 150%;
 }
 
 #search {
   position: absolute;
   top: 50%;
-  left: calc(100% - 175px);
+  left: 88%;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 40px;
@@ -88,7 +77,7 @@ body {
   color: #2a2a2d;
   font-size: 14px;
   font-family: 'inter';
-  padding-left: 10px;
+  padding-left: 5%;
 }
 
 #search_submit {
@@ -113,7 +102,7 @@ body {
 #guirlande_middle {
   position: absolute;
   transform: scale(0.5, 0.5) translateY(-95%) rotate(50deg);
-  left: calc(50% - 244px);
+  left: 35%;
   display: block;
   z-index: 2;
 }
@@ -122,7 +111,7 @@ body {
   position: absolute; 
   transform: scale(0.4, 0.4) translate(-50%, -75%) scaleX(-1);
   image-orientation: initial;
-  left: calc(100% - 200px);
+  left: 87%;
   z-index: 2;
 }
 
