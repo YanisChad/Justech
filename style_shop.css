@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'StopMotion';
+    src: url('fonts/Stopmotion/StopmotionDecember11.ttf') format('truetype')
+  }
+  
+  @font-face {
+    font-family: 'inter';
+    src: url('fonts/static/Inter-Light.ttf') format('truetype')
+  }
+  
+  html {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    background: repeating-linear-gradient(to bottom, #F15481 0%, #A76BEF 100%);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .top {
+    position: absolute;
+    top: -7%;
+  }
+  
+  #header {
+    background-color: #D3D3D3;
+    opacity: 73%;
+    color: #E0E0E0;
+    height: 10%;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  #header a {
+    padding-left: 0%;
+    float: left;
+    margin-left: 2%;
+    color: black;
+    text-align: center;
+    left: -1%;
+    top: 10%;
+    text-decoration: none;
+  }
+  
+  #links {
+    font-family: 'inter';
+    position: relative;
+    top: -5%;
+    left: 84%;
+    width: 100%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
+  
+  .a {
+    margin-left: 150%;
+  }
+  
+  #search {
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    max-width: 300px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    box-shadow: #2a2a2d 1px 1px 10px;
+  }
+  
+  #search::placeholder {
+    color: #2a2a2d;
+    font-size: 14px;
+    font-family: 'inter';
+    padding-left: 5%;
+  }
+  
+  #search_submit {
+    visibility: hidden;
+  }
+
+  #weekly {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    height: 35%;
+    border-radius: 20px;
+    opacity: 60%;
+    background: #fff;
+    border: none;
+    box-shadow: #2a2a2d 1px 1px 10px;
+  }
+
+  #weekly h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 35px;
+    color: #2a2a2d;
+  }
+
+  #gaming {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%);
+    width: 45%;
+    height: 35%;
+    border-radius: 20px;
+    opacity: 60%;
+    background: #fff;
+    border: none;
+    box-shadow: #2a2a2d 1px 1px 10px;
+  }
+  
+  #gaming h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 35px;
+    color: #2a2a2d;
+  }
+
+
+  #bureautique {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%);
+    width: 45%;
+    height: 35%;
+    border-radius: 20px;
+    opacity: 60%;
+    background: #fff;
+    border: none;
+    box-shadow: #2a2a2d 1px 1px 10px;
+  }
+
+  #bureautique h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 35px;
+    color: #2a2a2d;
+  }
